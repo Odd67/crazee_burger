@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function LoginForm() {
   const [inputValue, setInputValue] = useState("");
@@ -21,7 +22,9 @@ export default function LoginForm() {
         required
         placeholder="Entrez votre prénom"
       />
-      <button>Accéder à mon espace</button>
+      <Link to="/order">
+        <button>Accéder à mon espace</button>
+      </Link>
     </form>
   );
 }
