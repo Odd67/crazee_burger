@@ -12,7 +12,7 @@ export default function LoginPage() {
 }
 
 const LoginPageStyled = styled.div`
-  height: 100vh;
+  height: 97vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
