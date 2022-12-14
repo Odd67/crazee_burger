@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { theme } from "../../../theme";
+<<<<<<< HEAD
 import Main from "./Main/Main";
+=======
+import Main from "./Main";
+>>>>>>> 58664249ffca7d76cc5d68548a9951ff5849b3e1
 import Navbar from "./Navbar/Navbar";
 import { useParams } from "react-router-dom";
 
