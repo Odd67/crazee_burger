@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { theme } from "../../theme";
 
-export default function Logo({ className }) {
+export default function Logo({ className, onClick }) {
   return (
-    <LogoStyled className={className}>
+    <LogoStyled className={className} onClick={onClick}>
       <h1>CRAZEE</h1>
       <img src="/images/logo-orange.png" alt="logo-crazee-burger" />
       <h1>BURGER</h1>
@@ -31,7 +31,7 @@ const LogoStyled = styled.div`
     object-fit: contain;
     object-position: center;
     height: 60px;
-    width: 80px; // for Safari and Firefox
+    width: 80px;
     margin: 0 ${theme.gridUnit / 2}px;
   }
 `;
