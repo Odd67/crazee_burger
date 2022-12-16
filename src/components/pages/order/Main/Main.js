@@ -13,7 +13,7 @@ export default function Main() {
 
 const MainStyled = styled.div`
   background: ${theme.colors.background_white};
-  flex: 1;
+  flex: 1; // or you can also use this : height: calc(95vh - 10vh);
 
   border-bottom-left-radius: ${theme.borderRadius.extraRound};
   border-bottom-right-radius: ${theme.borderRadius.extraRound};
@@ -23,12 +23,7 @@ const MainStyled = styled.div`
   grid-template-columns: 1fr;
 
   overflow-y: scroll;
-
   /* .basket {
     background: pink;
   } */
-
-  .menu {
-    background: purple;
-  }
 `;
